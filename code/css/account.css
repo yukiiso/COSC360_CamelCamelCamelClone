@@ -1,0 +1,212 @@
+main p, body {
+    font-family: "DM Sans";
+    font-size: 1em;
+}
+
+main h1 {
+    font-family: "Alata";
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid black;
+    margin-bottom: 1em !important;
+}
+
+main h2 {
+    font-family: "Alata";
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #D8DEE4;
+}
+
+main {
+    margin: 0em 5em 0em 5em;
+}
+
+main #menu-bar {
+    width: 15%;
+    height: 590px;
+    float: left;
+}
+
+main #menu-bar a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+main a#logout {
+    color: #BA1E14;
+}
+
+main hr {
+    border-top: 1px solid gray;
+}
+
+main #account-profile {
+    padding-left: 2em;
+    margin-left: 15%;
+}
+
+main #account-profile:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main #account-info {
+    padding-right: 2em;
+    float: left;
+    width: 75%;
+}
+
+main #profile-pic {
+    float: left;
+    width: 25%;
+}
+
+main #pic-form input {
+    width: 80%;
+    border: none;
+}
+
+main #profile-pic p {
+    margin: 0;
+}
+
+main #picture {
+    display: flex;
+    justify-content: center;
+}
+
+main #pic {
+    border: 3px solid #D0D7DE;
+    border-radius: 10em;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+main #change-pic {
+    background-color: white;
+    padding: 0.3em;
+    margin: 0;
+}
+
+main #acount-info {
+    display: flex;
+    justify-content: center;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-width: 0.15em;
+    padding: 0.25em;
+    margin-bottom: 4em;
+}
+
+main form input {
+    margin: 0.7em 0em 0.7em 0em;
+    border: 1px solid #D0D7DE;
+    background-color: #F6F8FA;
+    padding: 1em;
+    border-radius: 1em;
+    width: 100%;
+    height: 50px;
+}
+
+main form label {
+    width: 100%;
+    display: block;
+}
+
+main form label[for="new-pass"], main form label[for="con-pass"] {
+    display: block;
+    text-align: left;
+}
+
+main #password {
+    display: block;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+main #curr-pass {
+    width: 49%;
+}
+
+main #new-password {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+main #new, #confirm {
+	text-align: center;
+	display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 98%;
+}
+
+main .status {
+    margin-bottom: 1em;
+}
+
+main #error-msg {
+    display: flex;
+    justify-content: center;
+}
+
+main .error, main .status {
+    width: 80%;
+    text-align: center;
+}
+
+main #save {
+    background-color: #38AB38;
+    padding-top: 0.8em;
+    color: white;
+    border: none;
+    width: 180px;
+}
+
+main form input#ch-pic {
+    background-color: #38AB38;
+    font-size: 0.8em;
+    padding: 0;
+    border-radius: 1.2em;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 30px;
+}
+
+/* Responsive design for mobile */
+@media screen and (max-width: 700px) {
+    main {
+        margin: 0em 3em 0em 3em;
+    }
+
+    main #menu-bar {
+        width: 100%;
+        height: auto;
+        margin-bottom: 2em;
+    }
+
+    main #account-info {
+        padding: 0;
+        width: 100%;
+    }
+
+    main #account-profile {
+        margin: 0;
+        padding: 0;
+    }
+
+    main #profile-pic {
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,347 @@
+/* font-family, font size */
+main p,
+body {
+	font-family: "Actor" !important;
+	font-size: 1em;
+}
+
+main h1 {
+	font-family: "Alata";
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+main h2 {
+	font-family: "Alata";
+	font-size: 1.5em;
+}
+
+main h3 {
+	font-family: "Alata";
+	font-size: 1.2em;
+	margin-bottom: 1em;
+}
+
+main {
+	margin: 0em 5em 0em 5em;
+}
+
+main #pimg {
+	width: 40%;
+	float: left;
+}
+
+main #prod-info {
+	margin-left: 40%;
+	padding-left: 3em;
+}
+
+main #prod-info:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+main #rate {
+	font-family: "Actor";
+}
+
+main #rate span {
+	color: gray;
+}
+
+main #deal {
+	width: 130px;
+	padding: 0.5em;
+	margin: 1em 0 1em 0;
+	text-align: center;
+	border: 1px solid #DDFFDD;
+	border-radius: 1.2em;
+	background-color: #DDFFDD;
+	color: gray;
+}
+
+main #price {
+	font-size: 35px;
+	margin: 0.6em 0 0.6em 0;
+}
+
+main #rate,
+#avg-price,
+#amapra {
+	margin: 0.7em 0 0 0;
+}
+
+main #date-time {
+	margin-bottom: 1.5em;
+}
+
+main #amazon {
+	display: flex;
+	justify-content: center;
+}
+
+main #view-amazon {
+	padding: 0.5em;
+	margin-top: 1em;
+	width: 60%;
+	min-width: 9em;
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 2em;
+}
+
+main #view-amazon a {
+	color: white;
+	text-decoration: none;
+}
+
+main #details-reviews {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+main #details,
+#reviews {
+	text-align: center;
+	margin: 3em 2em 3em 2em;
+}
+
+main #details table {
+	margin: auto;
+	width: 600px;
+}
+
+main #details table td,
+#details table th {
+	text-align: left;
+}
+
+main .gray {
+	background-color: #F6F6F6;
+}
+
+/* styling for header of review-displaying section */
+
+.reviews-header-container {
+	display: flex;
+	justify-content: space-between;
+	margin-left: -2em; 
+	margin-right: -2em;
+}
+
+.reviews-title-container {
+	display: flex;
+}
+
+.reviews-title-container i {
+	margin: 6px 0 0 7px;
+	font-size: small;
+	color: grey;
+}
+
+/* styling for rating filter */
+
+#rating-filter {
+	-webkit-appearance: none;
+	/* For Chrome/Safari/Edge */
+	-moz-appearance: none;
+	/* For Firefox */
+	appearance: none;
+	/* General fallback */
+	border: none;
+	background-color: #ececec;
+	margin-right: 5px;
+}
+
+.dropdown-container {
+	border: none;
+	padding: 8px;
+	border-radius: 30px;
+	background-color: #ececec;
+	width: 9em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: -10px;
+}
+
+/* styling for review-displaying sectiom */
+main #reviews-container {
+	margin-top: 20px;
+	size: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+main .review strong {
+	font-weight: bold;
+}
+
+main .review p {
+	margin-top: 5px;
+}
+
+main .star {
+	display: inline-block;
+	margin-top: 5px;
+	color: #f0ad4e;
+	unicode-bidi: bidi-override;
+	direction: ltr;
+	/* Direction to display stars */
+	font-size: 13px;
+}
+
+main .review {
+	flex: 45%;
+	max-width: 45%;
+	margin: 0 15px 15px 0;
+	/* Keep spacing between reviews */
+	box-sizing: border-box;
+	align-items: center;
+	border: 1px solid #ddd;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+main #reviews-container .review:nth-child(n+5) {
+	display: none;
+	/* Show only the first 3 items intially */
+}
+
+main #load-more-reviews-btn {
+	border: 1px solid #ddd;
+	border-radius: 30px;
+	background-color: white;
+	height: 3em;
+	width: 12em;
+}
+
+main .placeholder-btn {
+	visibility: hidden;
+}
+
+main .delete-review-btn {
+	border: none;
+	background-color: white;
+}
+
+main .delete-btn-form {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	float: right;
+}
+
+/* styling for review submission section */
+main #comment {
+	background-color: #DEF8FF;
+	border: 2px solid #9EE7FB;
+	border-radius: 0.5em;
+	width: 400px;
+	height: 3em;
+}
+
+main #rating {
+	background-color: #DEF8FF;
+	border: 2px solid #9EE7FB;
+	border-radius: 0.5em;
+	width: 70px;
+	height: 3em;
+}
+
+main #submit {
+	background-color: #38AB38;
+	border-radius: 3em;
+	height: 40px;
+	color: white;
+	border: none;
+	width: 180px;
+}
+
+/* styling for analytics section */
+
+main #price-analytics {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+main #add-to-pwatch {
+	display: flex;
+	justify-content: end;
+}
+
+main #add-to-pwatch-btn {
+	padding: 0.5em;
+	margin-bottom: 1em;
+	width: 20%;
+	min-width: 10em;
+	font-size: small;
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 2em;
+	color: white;
+}
+
+/* Responsive design for mobile */
+@media screen and (max-width: 600px) {
+	main {
+		margin: 0em 3em 0em 3em;
+	}
+
+	main h1 {
+		font-size: 1.2em;
+	}
+
+	main #pimg {
+		float: none;
+		width: 200px;
+	}
+
+	main #prod-info {
+		width: 100%;
+		margin: 0.5em;
+		padding: 0;
+	}
+
+	main #comment {
+		width: 90%;
+	}
+
+	main #submit {
+		width: 50%;
+		font-size: small;
+	}
+
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+	main {
+		margin: 0em 3em 0em 3em;
+	}
+
+	main h1 {
+		font-size: 1.5em;
+	}
+
+	main #prod-info {
+		width: 100%;
+		margin: 0.5em;
+		padding: 0;
+	}
+
+	main #pimg {
+		float: none;
+	}
+
+	main #comment {
+		width: 90%;
+	}
+
+	main #submit {
+		width: 50%;
+	}
+
+}

@@ -1,0 +1,39 @@
+footer body {
+    font-family: "DM Sans";
+    font-size: 1em;
+}
+
+footer h1 {
+    font-size: 2em;
+}
+
+footer h2 {
+    font-size: 1.5em;
+}
+
+footer footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer #contact-us a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+footer #contact-us a img {
+    margin: 0.3em;
+}
+
+footer #contact-us {
+    font-family: "DM Sans";
+}
+
+footer #copyright {
+    font-family: "DM Sans";
+}

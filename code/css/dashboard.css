@@ -1,0 +1,160 @@
+main p, body {
+    font-family: "DM Sans";
+    font-size: 1em;
+}
+
+main h1 {
+    font-family: "Alata";
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid black;
+    margin-bottom: 1em !important;
+}
+
+main h2 {
+    font-family: "Alata";
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #D8DEE4;
+}
+
+main {
+    margin: 0em 5em 0em 5em;
+}
+
+main #menu-bar {
+    width: 15%;
+    height: 590px;
+    float: left;
+}
+
+main #menu-bar a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+main a#logout {
+    color: #BA1E14;
+}
+
+main hr {
+    border-top: 1px solid gray;
+}
+
+main #dashboard {
+    padding-left: 2em;
+    margin-left: 15%;
+}
+
+main #dashboard a {
+  text-decoration: none;
+}
+
+main #card {
+    display: flex;
+}
+
+main #yearSelector {
+    margin: 2em 0 0 0;
+    background-color: #DEF8FF;
+    border: 2px  solid #9EE7FB;
+    border-radius: 0.5em;
+    height: 2em;
+}
+
+main #numu-of-user {
+    display: inline-block;
+}
+
+main #dashboard:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Styling for boxes */
+main .box {
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    padding: 25px;
+    margin-right: 20px;
+    text-align: left;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    font-family: 'Alata', sans-serif;
+}
+  
+main .box i {
+    font-size: 3em;
+    color: #3498db; 
+    margin-bottom: 10px;
+}
+
+/* Styling for the headings within the box */
+main .box h2 { 
+    margin-bottom: 5px; 
+    color: black; /* Or set the color you desire for the heading */
+
+}
+
+main .count {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;  
+}
+  
+main .legend {
+	margin-top: 0; 
+	font-size: 1.3em; 
+	color: #cccccc; 
+	font-weight: normal; 
+}
+  
+/* Customize these colors as needed */
+main .user-box {
+	color: #3498db;
+}
+  
+main .ticket-box {
+	color: #e74c3c;
+}
+
+main #traffic {
+	width: 980px;
+	height: 500px;
+	margin: 2em 0 3em 0;
+}
+
+/* Responsive design for mobile */
+@media screen and (max-width: 850px) {
+    main {
+        margin: 0em 3em 0em 3em;
+    }
+
+    main #menu-bar {
+        width: 100%;
+        height: auto;
+        margin-bottom: 2em;
+    }
+
+    main #card {
+        padding: 0;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    main .box {
+        margin: 0;
+        width: 180px;
+        font-size: 0.7em;
+    }
+
+    main #dashboard {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+}
